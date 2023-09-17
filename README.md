@@ -22,7 +22,7 @@ bun make
 
 ### start
 
-Run the built index.ts file.
+Run the built dist/index.js file.
 
 ```
 bun start
