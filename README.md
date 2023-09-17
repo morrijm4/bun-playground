@@ -6,7 +6,7 @@ Run, build, and manage scripts with Bun.
 
 ### dev
 
-Run index.ts file.
+Run `index.ts` file.
 
 ```
 bun dev
@@ -14,7 +14,7 @@ bun dev
 
 ### make
 
-Build and minify index.ts file.
+Build and minify `index.ts` file.
 
 ```
 bun make
@@ -30,7 +30,7 @@ bun start
 
 ### store
 
-Save the index.ts file in the `store/` directory. It will append the date (yyyy-mm-dd) and optionally you can provide
+Save the `index.ts` file in the `store/` directory. It will append the date (yyyy-mm-dd) and optionally you can provide
 a title to name the file.
 
 ```
@@ -39,7 +39,7 @@ bun store [title]
 
 ### reset
 
-Replace index.ts with the default kit.
+Replace `index.ts` with the default kit.
 
 ```
 bun reset
