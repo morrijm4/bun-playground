@@ -1,17 +1,22 @@
 {
-  "name": "ts-playground",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.ts",
-  "keywords": [],
-  "author": "Matthew Morrison",
-  "license": "MIT",
-  "scripts": {
-    "dev": "bun index.ts",
-    "make": "bun build index.ts --outdir=dist/",
-    "start": "bun dist/index.js"
-  },
-  "dependencies": {
-    "graphql": "^16.8.0"
-  }
+	"name": "ts-playground",
+	"version": "0.1.0",
+	"description": "",
+	"main": "index.ts",
+	"keywords": [],
+	"author": "Matthew Morrison",
+	"license": "MIT",
+	"scripts": {
+		"dev": "bun index.ts",
+		"make": "bun build index.ts --outdir=dist/ --minify",
+		"reset": "bun tools/load.ts",
+		"start": "bun dist/index.js",
+		"store": "bun tools/store.ts"
+	},
+	"dependencies": {
+		"graphql": "^16.8.0"
+	},
+	"engines": {
+		"bun": ">=1.0.2"
+	}	
 }
